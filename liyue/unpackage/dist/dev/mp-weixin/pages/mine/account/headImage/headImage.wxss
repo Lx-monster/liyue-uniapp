@@ -1,0 +1,35 @@
+.mainContainer{
+	background-color: #000000;
+}
+.img-container{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding-top: 150rpx;
+}
+.img-container image{
+	width: 600rpx;
+}
+.cancelImage-container{
+	position: fixed;
+	bottom: 150rpx;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.cancelImage{
+	width: 110rpx;
+	height: 110rpx;
+	margin-top: 10rpx;
+	border-radius: 150rpx;
+	opacity: 0.9;
+	/* background-color: #FFFDEF; */
+}
+

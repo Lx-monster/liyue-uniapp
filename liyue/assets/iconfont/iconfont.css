@@ -1,0 +1,50 @@
+@font-face {
+	/* 引用的 阿里巴巴的 在线图标库 */
+  font-family: 'iconfont';  /* project id 1902504 */
+  src: url('https://at.alicdn.com/t/font_1902504_i94zpw708vl.eot');
+  src: url('https://at.alicdn.com/t/font_1902504_i94zpw708vl.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1902504_i94zpw708vl.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1902504_i94zpw708vl.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1902504_i94zpw708vl.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1902504_i94zpw708vl.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconunfollow:before {
+  content: "\e64d";
+}
+
+.iconfollow:before {
+  content: "\e64f";
+}
+
+.iconwode:before {
+  content: "\e60b";
+}
+
+.iconshouye:before {
+  content: "\e60c";
+}
+
+.iconsousuo:before {
+  content: "\e60d";
+}
+
+.iconarrow-right:before {
+  content: "\e743";
+}
+
+.iconbiaoqing:before {
+  content: "\e6ed";
+}
+
+.icondushu:before {
+  content: "\e6f2";
+}
+

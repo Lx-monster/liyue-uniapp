@@ -1,0 +1,98 @@
+.mainContainer{
+	background-color: #FFF7ED;
+}
+.book-single{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: space-around;
+	width: 100%;
+	height: 360upx;
+	/* background-color: #00ffff; */
+	padding: 20upx 40upx;
+}
+.book-image{
+	width: 50%;
+	height: 360upx;
+}
+.book-desc{
+	width: 50%;
+	height: 360upx;
+	/* background-color: #4CD964; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.book-title{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	width: 80%;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+	overflow: hidden;
+}
+.book-like{
+	display: flex;
+	flex-direction: row;
+	/* background-color: #4CD964; */
+}
+.like-text{
+	width: 30%;
+	/* background-color: #9A6E3A; */
+}
+.like{
+	width: 70%;
+	font-size: 30px;
+	line-height: 70upx;
+	/* background-color: #0077AA; */
+}
+.book-text{
+	color: #808080;
+	font-size: 14px;
+	font-weight: bold;
+	width: 70%;
+	line-height: 70upx;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+	overflow: hidden;
+}
+.link{
+	border-radius: 2.5rem;
+	padding: 0 15upx;
+	background-color: #BCF0ED;
+	border: #2AB7B0 solid 2upx;
+}
+.separator{
+	height: 1px;
+	width: 100%;
+	background-color: #cccccc;/* 底部线条 */	
+}
+.introduce{
+	/* background-color: #aaffff; */
+	display: flex;
+	flex-direction: column;
+}
+.Infotitle{
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	width: 95%;
+	margin: 5upx auto;
+	/* background-color: #669900; */
+}
+.info{
+	color: #383838;
+	font-size:15px;
+	margin: 5upx;
+	padding: 10upx 35upx;
+	text-indent: 30px;
+	text-align: justify;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:17;
+	overflow: hidden;
+	/* background-color: #DD4A68; */
+}

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/mine/account/account",
+    "pages/mine/login/login",
+    "pages/mine/account/chooseImg/chooseImg",
+    "pages/mine/login/register/register",
+    "pages/mine/account/headImage/headImage",
+    "pages/bookInfo/bookInfo",
+    "pages/bookInfo/web-view/web-view",
+    "pages/collection/collection"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#FF950A",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#CBF3F0",
+    "selectedColor": "#ffffff",
+    "backgroundColor": "#2bb6a8",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/shouye.png",
+        "selectedIconPath": "static/img/shouye-s.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/img/wode.png",
+        "selectedIconPath": "static/img/wode-s.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

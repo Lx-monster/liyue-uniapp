@@ -1,0 +1,27 @@
+.mainContainer{
+	background-color: #000000;
+}
+.img-container{
+	display: flex;
+	justify-content: center;
+	padding-top: 90upx;
+}
+.img-container image{
+	width: 500upx;
+}
+.footer{
+	background-color: #1F847A;
+	color: #FFFFFF;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.button{
+	width: 50%;
+	padding: 25upx 50upx;
+	border: #000000 1px solid;
+	text-align: center;
+}

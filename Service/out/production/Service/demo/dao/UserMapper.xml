@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="demo.dao.UserMapper">
+    <select id="queryUser" resultType="demo.pojo.UserInfo" parameterType="String">
+        select * from tb_userInfo where user_name = #{name}
+    </select>
+    <select id="login" resultType="demo.pojo.UserInfo">
+        select * from tb_userInfo where user_name = #{name} and user_pw = #{password}
+    </select>
+    <select id="queryLike">
+        select like_list from tb_userInfo where user_name =#{name}
+    </select>
+    <insert id="register">
+        insert into tb_userInfo(user_name,user_pw) values (#{name},#{password})
+    </insert>
+    <update id="updateUser">
+        update tb_userInfo set img_url = #{url} where user_name =#{name}
+    </update>
+    <update id="updateLike">
+        update tb_userInfo set like_list = #{likeList} where user_name =#{name}
+    </update>
+</mapper>

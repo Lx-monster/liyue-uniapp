@@ -1,0 +1,32 @@
+	.mainContainer{
+		display: flex;
+		flex-direction: column;
+		padding: 250upx 34upx;
+	}
+	.registerContainer{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 35upx;
+		position: fixed;
+	}
+	.border{
+		font-size: 30upx;
+		border-radius: 2.5rem;
+		box-shadow: 0 0 10upx 0 #27A599;
+	}
+	.input{
+		margin: 20upx 10upx;
+		padding: 7upx 50upx;
+		background-color: #ffffff;
+		height: 90upx;
+		width: 500upx;
+		
+	}
+	.button{
+		font-size: 37upx;
+		color: #EEFBFA;
+		background-color: #239589;
+		margin: 70upx 10upx;
+		height: 100upx;
+	}

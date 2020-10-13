@@ -1,0 +1,38 @@
+.mainContainer{
+	background-color: #000000;
+}
+.img-container{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding-top: 90rpx;
+}
+.img-container image{
+	width: 500rpx;
+}
+.footer{
+	background-color: #1F847A;
+	color: #FFFFFF;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.button{
+	width: 50%;
+	padding: 25rpx 50rpx;
+	border: #000000 1px solid;
+	text-align: center;
+}
+

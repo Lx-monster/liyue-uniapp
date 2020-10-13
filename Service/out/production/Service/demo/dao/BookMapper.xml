@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="demo.dao.BookMapper">
+    <select id="queryBook" resultType="demo.pojo.Book">
+        select * from tb_books
+    </select>
+    <select id="queryLikeBook" resultType="demo.pojo.Book">
+        select * from tb_books where book_id = #{bookId}
+    </select>
+</mapper>
+        <!--<update id="updateBook">
+            update tb_books set book_url = #{bookUrl} , author = #{author} where book_name =#{bookName}
+        </update>-->
+        <!--<insert id="insertBook" parameterType="demo.pojo.Book">
+            insert into tb_books(book_name,book_url,book_info) values (#{bookName},#{bookUrl},#{bookInfo})
+        </insert>-->

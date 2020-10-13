@@ -1,0 +1,128 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.books-container{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	/* background-color: #000000; */
+}
+.swiper-container{
+	/* margin: 0 auto;*/
+	width: 100%; 
+}
+.swiper{
+	height: 300upx;
+	background-color: #FFE6C2;
+}
+.swiper-item{
+	display: flex;
+	flex-direction: column;
+}
+.swiper-image{
+	width: 100%;
+	height: 300upx;
+}
+.sImg-info-bg{
+	position: fixed;
+	bottom: 0;
+	background-color: #2bb6a8;
+	opacity: 0.8;
+	width: 100%;
+	height: 60upx;
+	z-index: -1;
+}
+.sImg-info{
+	position: fixed;
+	bottom: 0;
+}
+.sImg-info text{
+	color: #ffffff;
+	padding: 0 20upx;
+	line-height: 60upx;
+	font-size: 35upx;
+}
+.title{
+	background-color: #EBF5F4;
+	text-align: center;
+}
+.title-info{
+	font-size: 17px;
+	font-weight: bold;
+}
+.special-list{
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	padding: 10upx 0;
+	margin: 10upx 10upx;
+	background-color: #FFF7EB;
+}
+.single-book{
+	margin-left: 40upx;
+	display: inline-block;
+}
+.hotbook-image{
+	width: 180upx;
+	height: 260upx;
+}
+.hotbook-name{
+	width: 200upx;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+.booksList{
+	margin: 0 10upx;
+	padding-bottom: 100upx;
+	/* background-color: #000000; */
+}
+.book{
+	display: flex;
+	flex-direction: row;
+	padding: 15upx;
+	margin: 10upx 0;
+	background-color: #FFF7EB;
+}
+.book-image{
+	width: 180upx;
+	height: 200upx;
+	padding: 0 10px 2px 5px;
+}
+.book-des{
+	width: 450upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.book-title{
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0 20px 0 5px;
+}
+.book-info{
+	color: #808080;
+	font-size: 14px;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+	overflow: hidden;
+	padding: 0 20px 0 5px;
+}
+.separ{
+	height: 1px;
+	background-color: #C0C0C0;
+}
+.list-footer{
+	text-align: center;
+	width: 100%;
+	line-height: 80upx;
+	background-color: #FFEDD6;
+}

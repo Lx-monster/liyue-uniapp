@@ -1,0 +1,26 @@
+.mainContainer{
+	background-color: #000000;
+}
+.img-container{
+	display: flex;
+	justify-content: center;
+	padding-top: 150upx;
+}
+.img-container image{
+	width: 600upx;
+}
+.cancelImage-container{
+	position: fixed;
+	bottom: 150upx;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.cancelImage{
+	width: 110upx;
+	height: 110upx;
+	margin-top: 10upx;
+	border-radius: 150upx;
+	opacity: 0.9;
+	/* background-color: #FFFDEF; */
+}

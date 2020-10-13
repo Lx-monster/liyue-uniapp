@@ -1,0 +1,1 @@
+<view class="mainContainer"><view class="img-container"><image src="{{imgpath}}" mode="aspectFit"></image></view><view class="footer"><view data-event-opts="{{[['tap',[['rechoose',['$event']]]]]}}" class="button" bindtap="__e">重选</view><view data-event-opts="{{[['tap',[['upload',['$event']]]]]}}" class="button" bindtap="__e">上传</view></view></view>

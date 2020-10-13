@@ -1,0 +1,58 @@
+
+.mainContainer{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		padding-top: 300rpx;
+}
+.loginContainer{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		position: fixed;
+		padding: 35rpx auto;
+		width: 100%;
+}
+.border{
+		font-size: 30rpx;
+		border-radius: 2.5rem;
+		box-shadow: 0 0 18rpx 0 #c7dde8;
+		margin: 20rpx auto;
+}
+.input{
+		padding: 7rpx 50rpx;
+		background-color: #ffffff;
+		height: 90rpx;
+		width: 500rpx;
+}
+.button{
+		color: #F1F1F1;
+		font-size: 35rpx;
+		line-height: 100rpx;
+		background-color: #2EC4B6;
+		width: 600rpx;
+		height: 100rpx;
+}
+.footer{
+		position: fixed;
+		width: 200rpx;
+		font-size: 30rpx;
+		text-align: center;
+		left: 270rpx;
+		bottom: 100rpx;
+}
+.footer text{
+		margin: 0 20rpx;
+}
+

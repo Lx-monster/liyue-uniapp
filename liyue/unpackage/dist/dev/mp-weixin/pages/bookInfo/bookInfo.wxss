@@ -1,0 +1,123 @@
+.mainContainer{
+	background-color: #FFF7ED;
+}
+.book-single{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-align-content: space-around;
+	        align-content: space-around;
+	width: 100%;
+	height: 360rpx;
+	/* background-color: #00ffff; */
+	padding: 20rpx 40rpx;
+}
+.book-image{
+	width: 50%;
+	height: 360rpx;
+}
+.book-desc{
+	width: 50%;
+	height: 360rpx;
+	/* background-color: #4CD964; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.book-title{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	width: 80%;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+	overflow: hidden;
+}
+.book-like{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	/* background-color: #4CD964; */
+}
+.like-text{
+	width: 30%;
+	/* background-color: #9A6E3A; */
+}
+.like{
+	width: 70%;
+	font-size: 30px;
+	line-height: 70rpx;
+	/* background-color: #0077AA; */
+}
+.book-text{
+	color: #808080;
+	font-size: 14px;
+	font-weight: bold;
+	width: 70%;
+	line-height: 70rpx;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+	overflow: hidden;
+}
+.link{
+	border-radius: 2.5rem;
+	padding: 0 15rpx;
+	background-color: #BCF0ED;
+	border: #2AB7B0 solid 2rpx;
+}
+.separator{
+	height: 1px;
+	width: 100%;
+	background-color: #cccccc;/* 底部线条 */
+}
+.introduce{
+	/* background-color: #aaffff; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.Infotitle{
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	width: 95%;
+	margin: 5rpx auto;
+	/* background-color: #669900; */
+}
+.info{
+	color: #383838;
+	font-size:15px;
+	margin: 5rpx;
+	padding: 10rpx 35rpx;
+	text-indent: 30px;
+	text-align: justify;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:17;
+	overflow: hidden;
+	/* background-color: #DD4A68; */
+}
+

@@ -1,0 +1,80 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "黎阅",
+				"enablePullDownRefresh":true
+			}
+		}
+		,{
+		    "path" : "pages/mine/mine",
+		    "style" : {
+				"navigationBarTitleText": "我的"
+			}
+		}
+		,{
+            "path" : "pages/mine/account/account",
+            "style" : {
+				"navigationBarTitleText": "账号管理"
+			}
+        }
+        ,{
+            "path" : "pages/mine/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录"
+			}
+        }
+        ,{
+            "path" : "pages/mine/account/chooseImg/chooseImg",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/mine/login/register/register",
+            "style" : {
+				"navigationBarTitleText": "欢迎注册"
+			}
+        }
+        ,{
+            "path" : "pages/mine/account/headImage/headImage",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/bookInfo/bookInfo",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/bookInfo/web-view/web-view",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/collection/collection",
+            "style" : {
+            	"navigationBarTitleText": "收藏"
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#FF950A",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color": "#CBF3F0",
+		"selectedColor": "#ffffff",
+		"backgroundColor": "#2bb6a8",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath":"static/img/shouye.png",
+				"selectedIconPath":"static/img/shouye-s.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath":"static/img/wode.png",
+				"selectedIconPath":"static/img/wode-s.png"
+			}
+		]
+	}
+}

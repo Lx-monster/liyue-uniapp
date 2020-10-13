@@ -1,0 +1,1 @@
+<view class="mainContainer"><view class="img-container"><image src="{{imgpath}}" mode="aspectFit"></image></view><view class="cancelImage-container"><image class="cancelImage" src="../../../../static/img/cancel.png" data-event-opts="{{[['tap',[['back',['$event']]]]]}}" bindtap="__e"></image></view></view>

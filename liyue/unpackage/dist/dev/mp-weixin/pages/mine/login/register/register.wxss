@@ -1,0 +1,45 @@
+
+.mainContainer{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		padding: 250rpx 34rpx;
+}
+.registerContainer{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		padding: 35rpx;
+		position: fixed;
+}
+.border{
+		font-size: 30rpx;
+		border-radius: 2.5rem;
+		box-shadow: 0 0 10rpx 0 #27A599;
+}
+.input{
+		margin: 20rpx 10rpx;
+		padding: 7rpx 50rpx;
+		background-color: #ffffff;
+		height: 90rpx;
+		width: 500rpx;
+}
+.button{
+		font-size: 37rpx;
+		color: #EEFBFA;
+		background-color: #239589;
+		margin: 70rpx 10rpx;
+		height: 100rpx;
+}
+

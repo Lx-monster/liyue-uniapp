@@ -1,0 +1,44 @@
+	.mainContainer{
+		display: flex;
+		flex-direction: column;
+		padding-top: 300upx;
+	}
+	.loginContainer{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		position: fixed;
+		padding: 35upx auto;
+		width: 100%;
+	}
+	.border{
+		font-size: 30upx;
+		border-radius: 2.5rem;
+		box-shadow: 0 0 18upx 0 #c7dde8;
+		margin: 20upx auto;
+	}
+	.input{
+		padding: 7upx 50upx;
+		background-color: #ffffff;
+		height: 90upx;
+		width: 500upx;
+	}
+	.button{
+		color: #F1F1F1;
+		font-size: 35upx;
+		line-height: 100upx;
+		background-color: #2EC4B6;
+		width: 600upx;
+		height: 100upx;
+	}
+	.footer{
+		position: fixed;
+		width: 200upx;
+		font-size: 30upx;
+		text-align: center;
+		left: 270upx;
+		bottom: 100upx;
+	}
+	.footer text{
+		margin: 0 20upx;
+	}

@@ -1,0 +1,31 @@
+.mainContainer{
+	background-color: #FFF7EB;
+}
+.c-list{
+	margin-left: 0.5%;
+	flex-flow: row wrap;
+	display: flex;
+	justify-content: flex-start;
+}
+.single-book{
+	box-sizing: border-box;
+	flex:0 0 33%;
+	padding: 20upx 20upx;
+	/* margin: 0 1upx; */
+	border-bottom: #000000 solid 1rpx;
+}
+.single-book:hover{
+	background-color: #bdbdbd;
+	opacity: 0.5;
+}
+.c-image{
+	width: 100%;
+	height: 260upx;
+}
+.c-name{
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+}
